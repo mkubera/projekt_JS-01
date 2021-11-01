@@ -1,10 +1,8 @@
 import Utils from "./utils";
 import { v4 as uuidv4 } from "uuid";
-import { Spinner } from "spin.js";
+import spinner from "./spinner";
 
-const newSpinner = new Spinner({ color: "#fff", lines: 12 });
-
-console.log(newSpinner);
+console.log(spinner);
 
 console.log(uuidv4());
 
